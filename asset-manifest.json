@@ -1,23 +1,21 @@
 {
   "files": {
     "main.css": "/unclebanks/reactapp0/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/unclebanks/reactapp0/static/js/main.7d4f3560.chunk.js",
-    "main.js.map": "/unclebanks/reactapp0/static/js/main.7d4f3560.chunk.js.map",
-    "runtime-main.js": "/unclebanks/reactapp0/static/js/runtime-main.0d1d6f0b.js",
-    "runtime-main.js.map": "/unclebanks/reactapp0/static/js/runtime-main.0d1d6f0b.js.map",
+    "main.js": "/unclebanks/reactapp0/static/js/main.857c46d6.chunk.js",
+    "main.js.map": "/unclebanks/reactapp0/static/js/main.857c46d6.chunk.js.map",
+    "runtime-main.js": "/unclebanks/reactapp0/static/js/runtime-main.cf9add27.js",
+    "runtime-main.js.map": "/unclebanks/reactapp0/static/js/runtime-main.cf9add27.js.map",
     "static/js/2.df964d67.chunk.js": "/unclebanks/reactapp0/static/js/2.df964d67.chunk.js",
     "static/js/2.df964d67.chunk.js.map": "/unclebanks/reactapp0/static/js/2.df964d67.chunk.js.map",
-    "static/js/3.789931cf.chunk.js": "/unclebanks/reactapp0/static/js/3.789931cf.chunk.js",
-    "static/js/3.789931cf.chunk.js.map": "/unclebanks/reactapp0/static/js/3.789931cf.chunk.js.map",
     "index.html": "/unclebanks/reactapp0/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/unclebanks/reactapp0/static/css/main.8c8b27cf.chunk.css.map",
     "static/js/2.df964d67.chunk.js.LICENSE.txt": "/unclebanks/reactapp0/static/js/2.df964d67.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/unclebanks/reactapp0/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0d1d6f0b.js",
+    "static/js/runtime-main.cf9add27.js",
     "static/js/2.df964d67.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.7d4f3560.chunk.js"
+    "static/js/main.857c46d6.chunk.js"
   ]
 }
