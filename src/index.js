@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename='/'>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <App />
     </HashRouter>
   </React.StrictMode>,
