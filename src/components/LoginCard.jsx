@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 import '../styles/LoginCard.css';
+import axios from "axios";
 
 export default function LoginCard() {
 
@@ -8,7 +9,7 @@ export default function LoginCard() {
         let username = document.getElementById("loginUserName");
         let password = document.getElementById("loginPassword");
         let credentials = localStorage.getItem(`${username}React0`);
-        if (!credentials || password != credentials) {
+        if (!credentials || password !== credentials) {
             alert("Please register an account.");
         }
     }
