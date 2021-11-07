@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 import '../styles/LoginCard.css';
+import RegisterPage from "../pages/RegisterPage";
 import axios from "axios";
 
 export default function LoginCard() {
@@ -13,6 +14,11 @@ export default function LoginCard() {
             alert("Please register an account.");
         }
     }
+    const moveToRegister = () => {
+        let appContainer = document.getElementById("appContainer");
+        let regiPage = document.getElementById("registerPageContainer")
+        appContainer.children[0].remove();
+    }
 
     return(
         <div id="loginCardContainer">
@@ -23,7 +29,7 @@ export default function LoginCard() {
                     <span id="loginPassword">Password: <input type="text"/></span>
                     <div id="loginCardBodyButtons">
                         <Button id="lcLogin" onClick={checkLogin}>Login</Button>
-                        <Button id="lcRegister" variant="success">Register</Button>
+                        <Button id="lcRegister" variant="success" onClick={moveToRegister}>Register</Button>
                     </div>
                 </Card.Body>
             </Card>
